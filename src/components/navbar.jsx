@@ -1,5 +1,7 @@
 import React from 'react'
-import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
+
 import ModeTogle from './mode-toggle'
 
 export default function Navbar() {
@@ -12,7 +14,7 @@ export default function Navbar() {
     {
       name: 'Twitter',
       url: 'https://x.com/dani218002',
-      icon: FaTwitter,
+      icon: FaXTwitter,
     },
     {
       name: 'GitHub',
